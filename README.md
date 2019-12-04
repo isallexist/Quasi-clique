@@ -11,11 +11,13 @@ Year = {2019}}
 
 User instructions: Packages required to run codes-- not provided here, other licenses required; compile and run instructions-- input parameters, etc.
 
-LDB.cpp: The code for generating the LDB bound
+LDB.cpp: The code for generating the proposed ellipsoidal bound.
 
-MIP.cpp: What it contains/does ... 
+MIP.cpp: The code for generating the MIP-based bounds by solving MIP formulations for the quasi-clique problem.
 
+MakeCommand_ldb: Command to compile LDB.cpp in a linux system.
 
+Makefile_mip: Make file to compile MIP.cpp in a linux system.
 
-Input instance format(s):
+Input instance format(s): DIMACS II instance format. Examples can be found at http://iridia.ulb.ac.be/~fmascia/maximum_clique/DIMACS-benchmark
 
