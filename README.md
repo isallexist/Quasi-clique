@@ -1,5 +1,5 @@
 # Quasi-clique
-This repository contains codes and instances used in the computational study reported in the article *"An Ellipsoidal Bounding Scheme for the Quasi-Clique Number of a Graph"* that has been accepted for publication in INFORMS Journal of Computing (citation will be updated when DOI information and URL are available). If you wish to use or cite this code, please cite the paper:
+This repository contains codes and instances used in the computational study reported in the article *"An Ellipsoidal Bounding Scheme for the Quasi-Clique Number of a Graph"* that has been accepted for publication in the _INFORMS Journal on Computing_ (citation will be updated when DOI information and URL are available). If you wish to use or cite this code, please cite the paper:
 ```
 @article{MiaoBala2019quasiclique,
 Author = {Zhuqi Miao and Balabhaskar Balasundaram},
@@ -11,15 +11,11 @@ Year = {2019}}
 ```
 User instructions: Packages required to run codes-- not provided here, other licenses required; compile and run instructions-- input parameters, etc.
 
-LDB.cpp: The code for generating the proposed ellipsoidal bound.
-
-MIP.cpp: The code for generating the MIP-based bounds by solving MIP formulations for the quasi-clique problem.
-
-MakeCommand_ldb: Command to compile LDB.cpp in a linux system.
-
-Makefile_mip: Make file to compile MIP.cpp in a linux system.
-
-Input instance format(s): DIMACS II instance format. 
+* LDB.cpp: The code for generating the proposed ellipsoidal bound.
+* MIP.cpp: The code for generating the MIP-based bounds by solving MIP formulations for the quasi-clique problem.
+* MakeCommand_ldb: Command to compile LDB.cpp in a linux system.
+* Makefile_mip: Make file to compile MIP.cpp in a linux system.
+* Input instance format(s): DIMACS Clique Challenge format. 
 
 # Compiling the code
 1. Configure the Linux environment with Gurobi and Intel MKL as described in the paper.
@@ -33,4 +29,4 @@ Input instance format(s): DIMACS II instance format.
 # Execution
 1. The code create an execution program named "prog". Use "qsub" command or double click to run it depending on the Linux environment 
 2. The code runs algorithms on the instances listed in input/dimacs.txt or input/sparse.txt. Modify the two files to include the instances you'd like to run. 
-3. input/bounds.csv gives the predefined bounds for F3, F4 MIP formulations. Modify as needed.
+3. The file input/bounds.csv gives the predefined bounds for F3, F4 MIP formulations. Modify as needed.
