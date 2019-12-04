@@ -19,5 +19,10 @@ MakeCommand_ldb: Command to compile LDB.cpp in a linux system.
 
 Makefile_mip: Make file to compile MIP.cpp in a linux system.
 
-Input instance format(s): DIMACS II instance format. Examples can be found at http://iridia.ulb.ac.be/~fmascia/maximum_clique/DIMACS-benchmark
+Input instance format(s): DIMACS II instance format. 
 
+# Compiling the code
+1. Configure the Linux environment with Gurobi and Intel MKL as described in the paper.
+2. Create a folder LDB for runing LDB.cpp.
+3. Copy the input folder, LDB.cpp and MakeCommand_ldb to the LDB folder. Then create an LDB/output folder for outputs.
+4. 
