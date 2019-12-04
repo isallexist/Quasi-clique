@@ -9,10 +9,9 @@ Note = {Accepted for publication.},
 Title = {An Ellipsoidal Bounding Scheme for the Quasi-Clique Number of a Graph},
 Year = {2019}}
 
-
 User instructions: Packages required to run codes-- not provided here, other licenses required; compile and run instructions-- input parameters, etc.
 
-LDB.cpp: What it contains/does ...
+LDB.cpp: The code for generating the LDB bound
 
 MIP.cpp: What it contains/does ... 
 
